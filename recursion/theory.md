@@ -10,4 +10,6 @@
 10. Find the nth number -> recursion
 11. Any recursive solution, you can convert into a formula
 12. Understand how func calls are getting into stack
+13. in linear recurrence relation -> repeated function calls (we can solve this problem with the help of dynamic programming)
+14. DP -> if in a recursion call , two or more recursion calls are doing the same work , don't compute it again and again
 
