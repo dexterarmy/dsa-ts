@@ -1,32 +1,31 @@
 'use strict';
 
-const arrOrg:number[]  = [1,2,3,4,5,6, 7];
-let array : number[] = [];
-const target: number = 6;
+let array = [1,2,3,4,5,6];
+let target = 13;
 
-// console.log(Math.ceil(arrOrg.length / 2));
+function bs(array: number[] , target: number ,s: number,e: number ): number{
 
-function binarySearch(arr): number {
-    if (arr[Math.floor(arr.length / 2)] === target) return arr[Math.floor(arr.length / 2)]; 
-    if (arr[Math.floor(arr.length / 2)] > target){
-        array = [];
-        for(let i = 0 ; i < Math.floor(arr.length / 2); i++){
-            
-            array.push(arr[i]);
-        }
-        return binarySearch(array);
+  if ( s > e){
+    return -1 ;
+  }
 
-    }
-    if (arr[Math.floor(arr.length / 2)] < target){
-        array = [];
-        for(let i = Math.ceil(arr.length / 2) ; i < arr.length; i++){
-           
-            array.push(arr[i]);
-        }
-        return binarySearch(array);
-    }
-    return 0;
+  const m = Math.floor((s + e) / 2) ;
+  
+  if(array[m] === target){
+    return m;
+  }
+
+  if(target > array[m]){
+    return bs(array , target , m+1 , array.length - 1);
+  }
+
+  return bs (array , target , 0, m-1);
+
+  
+
+
+
 }
 
-binarySearch(arrOrg);
+console.log(bs(array , target , 0 ,array.length - 1 ));
  
