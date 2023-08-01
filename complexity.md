@@ -4,3 +4,4 @@
 4. constant is the best one
 5. expression is a value , func and class are both expression and statement
 6. big-oh -> our algo will not exceed the complexity of this
+7. tight bound
