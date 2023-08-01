@@ -5,4 +5,5 @@
 5. expression is a value , func and class are both expression and statement
 6. big-oh -> our algo will not exceed the complexity of this
 7. tight bound
-8. big theta -> g(n) is both upper and lower bound on growth rate of f(n) for large values of n. 
+8. big theta -> g(n) is both upper and lower bound on growth rate of f(n) for large values of n.
+9. constant space complexity ???? -> done -> space complexity vs auxiliary space
