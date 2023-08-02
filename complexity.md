@@ -7,4 +7,6 @@
 7. tight bound
 8. big theta -> g(n) is both upper and lower bound on growth rate of f(n) for large values of n.
 9. constant space complexity ???? -> done -> space complexity vs auxiliary space -> no new arrays created
-10. 
+10. in recursion -> functions that are linked with each other will be in the stack at the same time, and IT SHOULD BE IN ONE FLOW , SO YOU CANNOT INTERLINK UP AND DOWN direction fucn calls because they are not in one direction
+11. height of recursion tree -> space complexity(auxiliary space)
+12. so in recursion tree at one level , there will not be more than one func calls in stack at same time
