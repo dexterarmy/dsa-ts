@@ -10,4 +10,5 @@
 10. in recursion -> functions that are linked with each other will be in the stack at the same time, and IT SHOULD BE IN ONE FLOW , SO YOU CANNOT INTERLINK UP AND DOWN direction fucn calls because they are not in one direction
 11. height of recursion tree -> space complexity(auxiliary space)
 12. so in recursion tree at one level , there will not be more than one func calls in stack at same time
-13. max amt of space required at a time
+13. max amt of space required at a time , so space complexity of recursive programs = height(total no. of calls / nodes in path) of tree
+14. recurrence relations -> represent recursion in form of equation
