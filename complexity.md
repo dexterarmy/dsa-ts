@@ -12,3 +12,5 @@
 12. so in recursion tree at one level , there will not be more than one func calls in stack at same time
 13. max amt of space required at a time , so space complexity of recursive programs = height(total no. of calls / nodes in path) of tree
 14. recurrence relations -> represent recursion in form of equation
+15. solve any recurrence relation of divide and conquer -> akra-baazi
+16. linear recurrence relations -> 
